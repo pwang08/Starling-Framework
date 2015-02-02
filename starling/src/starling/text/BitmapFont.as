@@ -409,10 +409,12 @@ package starling.text
         
         /** The name of the font as it was parsed from the font file. */
         public function get name():String { return mName; }
-        
+        public function set name(value:String):void { mName = value; }
+
         /** The native size of the font. */
         public function get size():Number { return mSize; }
-        
+        public function set size(value:Number):void { mSize = value; }
+
         /** The height of one line in points. */
         public function get lineHeight():Number { return mLineHeight; }
         public function set lineHeight(value:Number):void { mLineHeight = value; }
