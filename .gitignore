@@ -41,3 +41,4 @@ target/
 # FlashBuilder auto generated test runners
 FlexUnitApplication.as
 FlexUnitCompilerApplication.as
+starling/src/.idea
